@@ -1,70 +1,43 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Que**
 
-## Available Scripts
+#### A movie streaming platform bult using the [fmovies-api](https://github.com/vendz/fmovies-api).
+---
 
-In the project directory, you can run:
 
-### `npm start`
+## **Get Started Contributing**
+**You must have NodeJs installed on your local machine (pc) to proceed**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Go to the official [Node JS](https://nodejs.org/en/download) site to begin. \
+<sub>Dont forget to verify your installation by running ``` node --version``` in the terminal to see your installed version<sub>
+## Setup
+The steps listed here in details are to help you setup your environment.
+- Copy this repository to your workspace by clicking the `fork` button at the top of your screen
+- When it is completed, you should `clone` (download) it to your local machine (pc)
+- Navigate to the project folder using your terminal and run ```npm start```
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contribute
+The steps listed here in details are to help you start contributing.
+- Navigate to the `issues` section of the `origin` (parent repository)
+- Check the available issues and indicate your interest in any, you will be assigned to it if no one has been considered already
+- Create a new branch with the featured name
+- Switch to your newly created branch on your local machine
+- When you have implemented the changes and verified them, commit your changes
+- Make a pull request
 
-### `npm test`
+If all is good and fine, your changes would be merged.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Rules For Contributing
+- Use comments when necessary
+- Use similar naming convention
+- Use similar file location pattern when creating new files and folder
+- Always use meaningfull commit messages
+- If you run into a problem, make your descriptions as clear as possible
 
-### `npm run build`
+## Tips
+- Fetch from upstream (origin) frequently to avoid merge conflicts
+- Check this README frequently to catch up on updated tips and rules
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Code X](./src/assets/Code%20X%20GitHub%20Badge%20Black.png)
