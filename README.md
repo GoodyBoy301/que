@@ -34,6 +34,8 @@ If all is good and fine, your changes would be merged.
 - Use similar file location pattern when creating new files and folder
 - Always use meaningfull commit messages
 - If you run into a problem, make your descriptions as clear as possible
+- Pull request titles should be capitalized
+- All pull request should be directed to the `secondary` branch
 
 ## Tips
 - Fetch from upstream (origin) frequently to avoid merge conflicts
