@@ -1,0 +1,46 @@
+/*Styling for Watch section*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(44%, 1fr));
+    gap: 1em;
+    align-items: center;
+    padding: 3em;
+    background-color: black;
+    color: white;
+    min-width: 300px;
+}
+
+.grid>div>h1>strong {
+    color: blue;
+}
+
+.grid>div>h1 {
+    font-size: 2em;
+    padding-bottom: .3em;
+}
+
+.grid>div>p {
+    font-size: 1.3em;
+    width: 70%;
+}
+
+.grid>div:nth-of-type(2) {
+    background-image: url('../../assets/Watch\ any\ where.png');
+    background-size: 45vw 50vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media(max-width:420px) {
+    .grid>div:nth-of-type(2) {
+        background-size: 80vmin 40vmax;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/*Styling for Watch section ends*/
