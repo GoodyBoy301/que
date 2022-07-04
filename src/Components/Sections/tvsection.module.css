@@ -1,0 +1,53 @@
+/*Styling for tv section*/
+
+.grid {
+    display: flex;
+    background-image: url('../../assets/glenn-carstens-peters-EOQhsfFBhRk-unsplash\(1\).jpg'), linear-gradient(180deg, rgba(0, 0, 0, 0.596) 0%, rgba(0, 0, 0, .8)100%, aliceblue 100%);
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    gap: 3em;
+    align-items: center;
+    padding: 2em;
+    color: white;
+    min-width: 300px;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.grid>div {
+    width: 50%;
+}
+
+.grid>div>h1>strong {
+    color: blue;
+}
+
+.grid>div>h1 {
+    font-size: 2em;
+    padding-bottom: .3em;
+}
+
+.grid>div>p {
+    font-size: 1.3em;
+    width: 90%;
+}
+
+@media(max-width:500px) {
+    .grid {
+        grid-template-columns: 1fr;
+        height: 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media(max-width:375px) {
+    .grid>div>p {
+        font-size: .9em;
+        width: 50%;
+    }
+}
+
+
+/*Styling for tv section ends*/

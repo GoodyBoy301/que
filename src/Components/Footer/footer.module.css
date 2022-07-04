@@ -1,0 +1,42 @@
+/*Styling for kid section*/
+
+.grid {
+    display: grid;
+    padding: 4em;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(21%, 1fr));
+    color: white;
+    background-color: black;
+    align-items: center;
+    min-width: 300px;
+}
+
+.grid>ul {
+    list-style-type: none;
+}
+
+.grid>ul:first-child>li:first-child {
+    padding-bottom: 2em;
+}
+
+.grid>ul:first-child>li:last-child {
+    padding-top: 2em;
+}
+
+.grid>ul>li {
+    padding-bottom: 1.4em;
+}
+
+.grid>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width:375px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/*Styling for kid section ends*/

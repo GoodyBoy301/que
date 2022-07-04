@@ -1,0 +1,43 @@
+/*Styling for offline section*/
+
+.grid {
+    display: flex;
+    background-image: url('../../assets/movies.jpg'), linear-gradient(180deg, rgba(0, 0, 0, 0.596) 0%, rgba(0, 0, 0, .8)100%, aliceblue 100%);
+    ;
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    gap: 3em;
+    align-items: center;
+    padding: 3em 8%;
+    justify-content: flex-end;
+    background-position: top right;
+    color: white;
+    min-width: 300px;
+    background-attachment: fixed;
+}
+
+.grid>div>h1>strong {
+    color: blue;
+}
+
+.grid>div>h1 {
+    font-size: 2em;
+    padding-bottom: .3em;
+}
+
+.grid>div>p {
+    font-size: 1.3em;
+    width: 70%;
+}
+
+@media(max-width:500px) {
+    .grid {
+        height: 100%;
+        background-size: 100% 100%;
+    }
+}
+
+
+/*Styling for offline section ends*/

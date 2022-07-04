@@ -1,24 +1,31 @@
 import logo from './assets/Code X GitHub Badge Black.png';
 import './App.css';
+import Landing from './Components/Heading/Landing';
+import Section_tv from './Components/Sections/Section_tv';
+import Offline from './Components/Offline/Offline'
+import Watch from './Components/Watch/Watch';
+import Kids from './Components/Kids/Kids';
+import FAQ from './Components/Faq/FAQ';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" height="50px" width="50px"/>
-        <p className='Loading'>
-          Loading
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <header>
+      <Landing/>
+    </header> 
+    <main>
+       <Section_tv/>
+      <Offline/>
+      <Watch/>
+      <Kids/>
+      <FAQ/>
+   </main>
+    <footer>
+    <Footer/>                                                                                             
+   </footer> 
+     
+    </>
   );
 }
 

@@ -1,0 +1,83 @@
+/* styling for faqlist starts*/
+
+.list {
+    cursor: pointer;
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.list>ul>li {
+    cursor: pointer;
+    background-color: gray;
+    margin: .3em 0;
+    padding: 15px 1em;
+    width: 70vw;
+    min-width: 300px;
+}
+
+.list>ul>li>span {
+    float: right;
+}
+
+
+/* styling for faqlist ends*/
+
+.grid {
+    background-color: black;
+    color: white;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+}
+
+.grid>h2,
+.grid>p {
+    padding-bottom: 1em;
+}
+
+.grid>p {
+    font-size: .9em;
+    padding-top: 1em;
+}
+
+.grid>form>input,
+.grid>form>button {
+    height: 50px;
+    border: none;
+    border-radius: 1px;
+    font-size: 1.3em;
+}
+
+.grid>form>input {
+    padding: 1em;
+    width: 60%;
+    font-family: sans-serif;
+    margin-bottom: 1em;
+}
+
+.grid>form>input:focus {
+    outline: none;
+}
+
+.grid>form>button {
+    background-color: rgb(30, 151, 216);
+    color: whitesmoke;
+    padding: 0 .6em;
+}
+
+@media(max-width:430px) {
+    .grid>form>input,
+    .grid>form>button {
+        width: 100%;
+    }
+    .list>ul>li {
+        width: 80vw;
+    }
+}
+
+
+/* styling for faqlist ends*/

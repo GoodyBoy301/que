@@ -1,0 +1,41 @@
+    /*Styling for kid section*/
+    
+    .grid {
+        display: grid;
+        gap: 6em;
+        padding: 2em;
+        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+        color: white;
+        background-color: black;
+        align-items: center;
+        min-width: 300px;
+    }
+    
+    .grid>div>h1>strong {
+        color: blue;
+    }
+    
+    .grid>div>h1 {
+        font-size: 2em;
+        padding-bottom: .3em;
+    }
+    
+    .grid>div>p {
+        font-size: 1.3em;
+        width: 70%;
+    }
+    
+    .grid>div:first-child {
+        background-image: url('../../assets//Profile\ for\ kids.png');
+        background-size: 40vw 50vh;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    @media(max-width:375px) {
+        .grid>div:first-child {
+            background-size: 70vw 60vh;
+        }
+    }
+    /*Styling for kid section ends*/

@@ -1,0 +1,111 @@
+    /*Styling for nav ends here*/
+    
+    .nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    
+    .nav ul li {
+        color: rgb(32, 161, 231);
+        font-weight: bolder;
+        font-size: 3em;
+    }
+    
+    .nav ul li button {
+        height: 40px;
+        width: 120px;
+        border-radius: 6px;
+        border: none;
+        outline: none;
+        background-color: rgb(30, 151, 216);
+        margin-bottom: 1.5em;
+    }
+    
+    .nav ul li button a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+    /*Styling for nav ends*/
+    /*Styling for landing*/
+    
+    .landing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: inherit;
+        color: whitesmoke;
+    }
+    
+    .landing>div>h1 {
+        font-size: 3em;
+        margin-left: 10%;
+        padding-bottom: .2em;
+    }
+    
+    .landing>div {
+        margin-bottom: 20%;
+        margin-top: 2em;
+    }
+    
+    .landing>div>p {
+        font-size: 2em;
+        font-weight: 400;
+        padding-bottom: .6em;
+    }
+    
+    .landing>div>form>input,
+    .landing>div>form>button {
+        height: 50px;
+        border: none;
+        border-radius: 1px;
+        font-size: 1.3em;
+    }
+    
+    .landing div input {
+        padding: 1em;
+        width: 60%;
+        font-family: sans-serif;
+        margin-bottom: 1em;
+    }
+    
+    .landing div input:focus {
+        outline: none;
+    }
+    
+    .landing div button {
+        width: 30%;
+        background-color: rgb(30, 151, 216);
+        color: whitesmoke;
+    }
+    
+    .heading {
+        background-image: url('../../assets/movies.jpg'), linear-gradient(90deg, aliceblue 0%, rgb(31, 72, 220) 50%, aliceblue 100%);
+        height: 120vh;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        background-size: 100vw 120vh;
+        text-align: center;
+        display: grid;
+        grid-template-rows: auto;
+        min-width: 300px;
+        padding: 1em 6%;
+        background-attachment: fixed;
+    }
+    
+    @media(max-width:520px) {
+        .heading {
+            height: 100%;
+            background-size: 100% 100%;
+        }
+        .landing div input,
+        .landing div button {
+            width: 100%;
+        }
+        .landing>div {
+            margin-bottom: 6em;
+        }
+    }
