@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from '../stylesheet/watch.module.css'
+import classes from './watch.module.css'
 
  const Watch = () => {
   return (

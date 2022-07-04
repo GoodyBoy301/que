@@ -2,11 +2,11 @@ import logo from './assets/Code X GitHub Badge Black.png';
 import './App.css';
 import Landing from './Components/Heading/Landing';
 import Section_tv from './Components/Sections/Section_tv';
-import Offline from './Components/Sections/Offline';
-import Watch from './Components/Sections/Watch';
-import Kids from './Components/Sections/Kids';
-import FAQ from './Components/Sections/FAQ';
-import Footer from './Components/Sections/Footer';
+import Offline from './Components/Offline/Offline'
+import Watch from './Components/Watch/Watch';
+import Kids from './Components/Kids/Kids';
+import FAQ from './Components/Faq/FAQ';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (

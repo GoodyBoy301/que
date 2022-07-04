@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from '../stylesheet/offline.module.css'
+import classes from './offline.module.css'
 
 const Offline = () => {
   return (

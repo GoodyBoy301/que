@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import classes from '../stylesheet/Faq.module.css'
+import classes from './Faq.module.css'
 import Faqlist from './Faqlist'
 
  export const faqs=[

@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from '../stylesheet/kids.module.css'
+import classes from './kids.module.css'
 
  const Kids = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from '../stylesheet/landing.module.css'
+import classes from './landing.module.css'
 
  const Landing = () => {
   return (

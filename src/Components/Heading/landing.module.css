@@ -47,8 +47,7 @@
     }
     
     .landing>div {
-        margin: 9em 0;
-        margin-bottom: 16em;
+        margin-bottom: 20%;
         margin-top: 2em;
     }
     
@@ -88,12 +87,13 @@
         height: 120vh;
         background-repeat: no-repeat;
         background-blend-mode: darken;
-        background-size: cover;
+        background-size: 100vw 120vh;
         text-align: center;
         display: grid;
         grid-template-rows: auto;
         min-width: 300px;
         padding: 1em 6%;
+        background-attachment: fixed;
     }
     
     @media(max-width:520px) {

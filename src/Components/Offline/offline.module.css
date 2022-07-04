@@ -4,7 +4,7 @@
     display: flex;
     background-image: url('../../assets/movies.jpg'), linear-gradient(180deg, rgba(0, 0, 0, 0.596) 0%, rgba(0, 0, 0, .8)100%, aliceblue 100%);
     ;
-    background-size: 100% 80vh;
+    background-size: cover;
     height: 80vh;
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
@@ -15,6 +15,7 @@
     background-position: top right;
     color: white;
     min-width: 300px;
+    background-attachment: fixed;
 }
 
 .grid>div>h1>strong {

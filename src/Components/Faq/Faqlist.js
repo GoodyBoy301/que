@@ -1,4 +1,4 @@
-import classes from '../stylesheet/Faq.module.css'
+import classes from './Faq.module.css'
 import { useState } from 'react'
 
 const Faqlist = (props) => {

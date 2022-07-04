@@ -1,4 +1,4 @@
-import classes from '../stylesheet/tvsection.module.css'
+import classes from './tvsection.module.css'
 
 const Section_tv = () => {
   return (
