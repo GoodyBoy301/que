@@ -1,12 +1,12 @@
 import logo from './assets/Code X GitHub Badge Black.png';
 import './App.css';
-import Landing from './Components/Heading/Landing';
-import Section_tv from './Components/Sections/Section_tv';
-import Offline from './Components/Offline/Offline'
-import Watch from './Components/Watch/Watch';
-import Kids from './Components/Kids/Kids';
-import FAQ from './Components/Faq/FAQ';
-import Footer from './Components/Footer/Footer';
+import Landing from './Views/Heading/Landing';
+import Section_tv from './Views/Sections/Section_tv';
+import Offline from './Views/Offline/Offline'
+import Watch from './Views/Watch/Watch';
+import Kids from './Views/Kids/Kids';
+import FAQ from './Views/Faq/FAQ';
+import Footer from './Views/Footer/Footer';
 
 function App() {
   return (
