@@ -1,6 +1,6 @@
-import { useState } from "react";
 import classes from "./Faq.module.css";
 import Faqlist from "./Faqlist";
+import { Right } from "../../modules/icons";
 
 export const faqs = [
   {
@@ -66,7 +66,10 @@ const FAQ = () => {
       </p>
       <form action="">
         <input type="email" name="user_email" placeholder="Email Address" />
-        <button>Get Started</button>
+        <button>
+          <span>Get Started</span>
+          <Right size={24} />
+        </button>
       </form>
     </section>
   );

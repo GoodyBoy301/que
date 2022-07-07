@@ -10,15 +10,23 @@
 
 .list > ul > li {
   cursor: pointer;
-  background-color: gray;
+  background-color: var(--lightGrey);
   margin: 0.3em 0;
-  padding: 15px 1em;
-  width: 70vw;
+  padding: 1em 2.5em;
+  width: clamp(300px, 60vw, 700px);
   min-width: 300px;
+  display: grid;
+}
+.list > ul > li > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
 }
 
-.list > ul > li > span {
-  float: right;
+.list > ul > li > p {
+  font-size: 1.2rem;
+  padding: 0.7em 0;
 }
 
 /* styling for faqlist ends*/
@@ -33,29 +41,38 @@
   min-width: 300px;
 }
 
+.grid > h2 {
+  font-size: 2.6rem;
+}
+
 .grid > h2,
 .grid > p {
   padding-bottom: 1em;
 }
 
 .grid > p {
-  font-size: 0.9em;
-  padding-top: 1em;
+  font-size: 1.25rem;
+  padding-top: 3.5em;
+}
+.grid > form {
+  display: flex;
+  width: clamp(300px, 55vw, 600px);
+  align-items: center;
+  margin: 0.2em auto 1.3em;
+  gap: 1px;
 }
 
 .grid > form > input,
 .grid > form > button {
-  height: 50px;
   border: none;
-  border-radius: 1px;
+  border-radius: 2.5px;
   font-size: 1.3em;
+  font-family: Poppins, sans-serif;
+  padding: 0.5em 1em;
 }
 
 .grid > form > input {
-  padding: 1em;
-  width: 60%;
-  font-family: sans-serif;
-  margin-bottom: 1em;
+  width: 65%;
 }
 
 .grid > form > input:focus {
@@ -63,9 +80,15 @@
 }
 
 .grid > form > button {
-  background-color: rgb(30, 151, 216);
+  background-color: var(--lightBlue);
   color: whitesmoke;
-  padding: 0 0.6em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  width: 35%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 430px) {
