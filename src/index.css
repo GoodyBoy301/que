@@ -20,3 +20,8 @@ code {
 section {
   margin-top: 0.4em;
 }
+
+:root {
+  --lightGrey: rgb(41, 41, 41);
+  --lightBlue: rgb(32, 104, 166);
+}
