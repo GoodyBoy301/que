@@ -36,6 +36,7 @@ If all is good and fine, your changes would be merged.
 - If you run into a problem, make your descriptions as clear as possible
 - Pull request titles should be capitalized
 - All pull request should be directed to the `secondary` branch
+- The specified routes for contribution are `/pricing` , `/register` and `/login`
 
 ## Tips
 - Fetch from upstream (origin) frequently to avoid merge conflicts
